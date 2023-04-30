@@ -10,9 +10,6 @@
     url: "https://picsum.photos/id/239/200/300",
     alt: "Image 3",
   }
-  
-];
-
 function downloadImages(images) {
   const promises = images.map(image => {
     return new Promise((resolve, reject) => {
